@@ -19,6 +19,6 @@ function compute()
     }
 }
 
-function rangeDisplay() {
+function updateRate() {
     document.getElementById("rateval").innerHTML = document.getElementById("rate").value + "%";
 }
